@@ -1,0 +1,337 @@
+{
+  "experiment_label": "fim_a_fim",
+  "mode": "end-to-end",
+  "timestamp": "2026-10-24T09:55:22.633272",
+  "provider": "google",
+  "reasoning_level": "high",
+  "tasks_file": "tarefas\\tarefas.txt",
+  "total_tasks": 20,
+  "solved_tasks": 13,
+  "accuracy_percentage": 65.0,
+  "total_input_tokens": 58164,
+  "total_reasoning_tokens": 0,
+  "total_output_tokens": 5900,
+  "total_duration_seconds": 343.67,
+  "results": [
+    {
+      "task_name": "44d8ac46",
+      "task_file": "tarefas\\training\\44d8ac46.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify enclosed black (0) regions inside gray (5) shapes. If an enclosed region is a square whose side length is a power of 2 (1x1, 2x2, or 4x4), fill it entirely with red (2). Otherwise, leave it unchanged.",
+      "duration_seconds": 25.0804,
+      "usage": {
+        "input_tokens": 4276,
+        "reasoning_tokens": 0,
+        "output_tokens": 544,
+        "total_tokens": 13206
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\44d8ac46"
+    },
+    {
+      "task_name": "44f52bb0",
+      "task_file": "tarefas\\training\\44f52bb0.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "If the input grid is symmetric (horizontally, vertically, or both), output a 1x1 grid with 1. Otherwise, output a 1x1 grid with 7.",
+      "duration_seconds": 7.1092,
+      "usage": {
+        "input_tokens": 663,
+        "reasoning_tokens": 0,
+        "output_tokens": 83,
+        "total_tokens": 2370
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\44f52bb0"
+    },
+    {
+      "task_name": "9565186b",
+      "task_file": "tarefas\\training\\9565186b.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify the most frequent color in the input grid and keep it unchanged. Replace all other colors with gray (5).",
+      "duration_seconds": 9.6541,
+      "usage": {
+        "input_tokens": 631,
+        "reasoning_tokens": 0,
+        "output_tokens": 85,
+        "total_tokens": 2067
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\9565186b"
+    },
+    {
+      "task_name": "1cf80156",
+      "task_file": "tarefas\\training\\1cf80156.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Extract the bounding box that contains all non-zero colored pixels from the input grid.",
+      "duration_seconds": 11.0735,
+      "usage": {
+        "input_tokens": 2131,
+        "reasoning_tokens": 0,
+        "output_tokens": 125,
+        "total_tokens": 4752
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\1cf80156"
+    },
+    {
+      "task_name": "32597951",
+      "task_file": "tarefas\\training\\32597951.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Blue (1) pixels that are 4-way adjacent to cyan (8) pixels are transformed into green (3) pixels.",
+      "duration_seconds": 15.7397,
+      "usage": {
+        "input_tokens": 6442,
+        "reasoning_tokens": 0,
+        "output_tokens": 956,
+        "total_tokens": 11337
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\32597951"
+    },
+    {
+      "task_name": "2013d3e2",
+      "task_file": "tarefas\\training\\2013d3e2.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Extract the 3x3 top-left quadrant of the bounding box of the symmetric pattern.",
+      "duration_seconds": 42.3713,
+      "usage": {
+        "input_tokens": 1312,
+        "reasoning_tokens": 0,
+        "output_tokens": 80,
+        "total_tokens": 7415
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\2013d3e2"
+    },
+    {
+      "task_name": "25ff71a9",
+      "task_file": "tarefas\\training\\25ff71a9.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Shift all non-zero elements down by one row.",
+      "duration_seconds": 12.3896,
+      "usage": {
+        "input_tokens": 669,
+        "reasoning_tokens": 0,
+        "output_tokens": 110,
+        "total_tokens": 1538
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\25ff71a9"
+    },
+    {
+      "task_name": "007bbfb7",
+      "task_file": "tarefas\\training\\007bbfb7.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Replace each cell in the 3x3 input grid with a 3x3 block. If the input cell is non-zero, the corresponding 3x3 block is a copy of the input grid; if the input cell is zero, the block consists entirely of zeros.",
+      "duration_seconds": 11.7706,
+      "usage": {
+        "input_tokens": 1780,
+        "reasoning_tokens": 0,
+        "output_tokens": 346,
+        "total_tokens": 4788
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\007bbfb7"
+    },
+    {
+      "task_name": "0a938d79",
+      "task_file": "tarefas\\training\\0a938d79.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify two seed pixels in the input grid. If their column distance is smaller than their row distance, create a horizontal repeating pattern across all rows where the two colors alternate at intervals equal to the column distance. If their row distance is smaller, create repeating full-row stripes vertically.",
+      "duration_seconds": 28.6928,
+      "usage": {
+        "input_tokens": 6085,
+        "reasoning_tokens": 0,
+        "output_tokens": 997,
+        "total_tokens": 15866
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\0a938d79"
+    },
+    {
+      "task_name": "3aa6fb7a",
+      "task_file": "tarefas\\training\\3aa6fb7a.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify 3-pixel L-shaped clusters of cyan (8) pixels that fit within a 2x2 bounding box, and place a blue (1) pixel in the remaining empty cell to complete the 2x2 square.",
+      "duration_seconds": 9.342,
+      "usage": {
+        "input_tokens": 1093,
+        "reasoning_tokens": 0,
+        "output_tokens": 237,
+        "total_tokens": 3794
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\3aa6fb7a"
+    },
+    {
+      "task_name": "50aad11f",
+      "task_file": "tarefas\\evaluation\\50aad11f.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Extract each magenta (6) shape using its bounding box (each is 4x4), find its associated marker color located nearby, replace the magenta pixels with the marker color, and arrange the resulting shapes either horizontally (if their vertical ranges overlap) or vertically (if their vertical ranges are disjoint).",
+      "duration_seconds": 15.7281,
+      "usage": {
+        "input_tokens": 2887,
+        "reasoning_tokens": 0,
+        "output_tokens": 257,
+        "total_tokens": 7719
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\50aad11f"
+    },
+    {
+      "task_name": "e9b4f6fc",
+      "task_file": "tarefas\\evaluation\\e9b4f6fc.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify the main enclosed shape and the floating 1x2 color pairs outside. Each pair [X, Y] specifies a color substitution rule where color Y inside the shape is replaced by color X in the output grid.",
+      "duration_seconds": 14.5134,
+      "usage": {
+        "input_tokens": 3310,
+        "reasoning_tokens": 0,
+        "output_tokens": 174,
+        "total_tokens": 8525
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\e9b4f6fc"
+    },
+    {
+      "task_name": "9a4bb226",
+      "task_file": "tarefas\\evaluation\\9a4bb226.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify the 3x3 object that contains three distinct colors, whereas all other objects in the input grid contain only two distinct colors, and output that 3x3 object.",
+      "duration_seconds": 5.9251,
+      "usage": {
+        "input_tokens": 3154,
+        "reasoning_tokens": 0,
+        "output_tokens": 97,
+        "total_tokens": 5417
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\9a4bb226"
+    },
+    {
+      "task_name": "c658a4bd",
+      "task_file": "tarefas\\evaluation\\c658a4bd.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Detect the nested colored frames/boxes in the input, determine their hierarchical containment order from outermost to innermost, and construct a concentric rectangular output where each layer corresponds to one color from outside to inside.",
+      "duration_seconds": 16.093,
+      "usage": {
+        "input_tokens": 3151,
+        "reasoning_tokens": 0,
+        "output_tokens": 328,
+        "total_tokens": 9262
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\c658a4bd"
+    },
+    {
+      "task_name": "aab50785",
+      "task_file": "tarefas\\evaluation\\aab50785.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify pairs of 2x2 cyan (8) blocks that act as horizontal boundary markers. For each pair of rows containing these blocks, extract the subgrid located strictly between the left and right 2x2 blocks, and stack all extracted subgrids vertically to form the output grid.",
+      "duration_seconds": 29.4806,
+      "usage": {
+        "input_tokens": 4213,
+        "reasoning_tokens": 0,
+        "output_tokens": 198,
+        "total_tokens": 17160
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\aab50785"
+    },
+    {
+      "task_name": "d47aa2ff",
+      "task_file": "tarefas\\evaluation\\d47aa2ff.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Compare the left and right halves of the input grid separated by the column of gray (5) pixels. The output is a 10x10 grid based on the left half, where matching or interacting elements between the left and right sides are marked with colors 1 and 2.",
+      "duration_seconds": 13.2732,
+      "usage": {
+        "input_tokens": 3793,
+        "reasoning_tokens": 0,
+        "output_tokens": 407,
+        "total_tokens": 8369
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\d47aa2ff"
+    },
+    {
+      "task_name": "f5aa3634",
+      "task_file": "tarefas\\evaluation\\f5aa3634.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Identify the primary object marked by the gray color (5) located near the top-left of the input grid, and extract its bounding 3x4 subgrid.",
+      "duration_seconds": 14.7524,
+      "usage": {
+        "input_tokens": 2797,
+        "reasoning_tokens": 0,
+        "output_tokens": 104,
+        "total_tokens": 8153
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\f5aa3634"
+    },
+    {
+      "task_name": "7d18a6fb",
+      "task_file": "tarefas\\evaluation\\7d18a6fb.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "The blue region acts as a 2x2 template of positions (at relative coordinates [1,1], [1,5], [5,1], and [5,5]) specifying which colored 3x3 shapes from the input are placed into the four 3x3 quadrants of a 7x7 output grid (top-left, top-right, bottom-left, bottom-right), separated by a middle row and column of zeros.",
+      "duration_seconds": 15.9635,
+      "usage": {
+        "input_tokens": 4078,
+        "reasoning_tokens": 0,
+        "output_tokens": 283,
+        "total_tokens": 10366
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\7d18a6fb"
+    },
+    {
+      "task_name": "93b4f4b3",
+      "task_file": "tarefas\\evaluation\\93b4f4b3.json",
+      "is_correct": false,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Extract the template grid on the left and the colored shapes on the right. Fill the template sections from top to bottom using the shapes from the right in reverse order (bottom-to-top), overlaying the non-zero shape pixels into the template's zero-valued holes.",
+      "duration_seconds": 21.3245,
+      "usage": {
+        "input_tokens": 2110,
+        "reasoning_tokens": 0,
+        "output_tokens": 374,
+        "total_tokens": 10993
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\93b4f4b3"
+    },
+    {
+      "task_name": "7c9b52a0",
+      "task_file": "tarefas\\evaluation\\7c9b52a0.json",
+      "is_correct": true,
+      "train_passed": null,
+      "train_score": null,
+      "rule_summary": "Extract the interior patterns from all sub-grids (frames) defined by the background color border, and overlay them into a single output grid of the same dimensions.",
+      "duration_seconds": 23.3904,
+      "usage": {
+        "input_tokens": 3589,
+        "reasoning_tokens": 0,
+        "output_tokens": 115,
+        "total_tokens": 13040
+      },
+      "artifacts_dir": "runs\\fim_a_fim\\7c9b52a0"
+    }
+  ]
+}

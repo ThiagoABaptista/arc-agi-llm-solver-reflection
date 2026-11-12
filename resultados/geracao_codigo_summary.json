@@ -1,0 +1,397 @@
+{
+  "experiment_label": "geracao_codigo",
+  "mode": "code-execution",
+  "timestamp": "2026-10-24T10:02:15.766864",
+  "provider": "google",
+  "reasoning_level": "high",
+  "tasks_file": "tarefas\\tarefas.txt",
+  "total_tasks": 20,
+  "solved_tasks": 10,
+  "accuracy_percentage": 50.0,
+  "total_input_tokens": 44340,
+  "total_reasoning_tokens": 0,
+  "total_output_tokens": 9000,
+  "total_duration_seconds": 303.81,
+  "results": [
+    {
+      "task_name": "44d8ac46",
+      "task_file": "tarefas\\training\\44d8ac46.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        4
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/4",
+      "duration_seconds": 16.0208,
+      "usage": {
+        "input_tokens": 3672,
+        "reasoning_tokens": 0,
+        "output_tokens": 762,
+        "total_tokens": 9170
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\44d8ac46"
+    },
+    {
+      "task_name": "44f52bb0",
+      "task_file": "tarefas\\training\\44f52bb0.json",
+      "is_correct": false,
+      "train_passed": true,
+      "train_score": [
+        6,
+        6
+      ],
+      "rule_summary": "Code generation mode. Train passed: 6/6",
+      "duration_seconds": 12.2035,
+      "usage": {
+        "input_tokens": 426,
+        "reasoning_tokens": 0,
+        "output_tokens": 116,
+        "total_tokens": 4863
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\44f52bb0"
+    },
+    {
+      "task_name": "9565186b",
+      "task_file": "tarefas\\training\\9565186b.json",
+      "is_correct": false,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Code generation mode. Train passed: 4/4",
+      "duration_seconds": 8.3662,
+      "usage": {
+        "input_tokens": 432,
+        "reasoning_tokens": 0,
+        "output_tokens": 147,
+        "total_tokens": 2534
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\9565186b"
+    },
+    {
+      "task_name": "1cf80156",
+      "task_file": "tarefas\\training\\1cf80156.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 3/3",
+      "duration_seconds": 3.7896,
+      "usage": {
+        "input_tokens": 1527,
+        "reasoning_tokens": 0,
+        "output_tokens": 213,
+        "total_tokens": 2265
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\1cf80156"
+    },
+    {
+      "task_name": "32597951",
+      "task_file": "tarefas\\training\\32597951.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/3",
+      "duration_seconds": 12.3316,
+      "usage": {
+        "input_tokens": 5403,
+        "reasoning_tokens": 0,
+        "output_tokens": 256,
+        "total_tokens": 9677
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\32597951"
+    },
+    {
+      "task_name": "2013d3e2",
+      "task_file": "tarefas\\training\\2013d3e2.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        2,
+        2
+      ],
+      "rule_summary": "Code generation mode. Train passed: 2/2",
+      "duration_seconds": 14.7848,
+      "usage": {
+        "input_tokens": 840,
+        "reasoning_tokens": 0,
+        "output_tokens": 304,
+        "total_tokens": 5969
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\2013d3e2"
+    },
+    {
+      "task_name": "25ff71a9",
+      "task_file": "tarefas\\training\\25ff71a9.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Code generation mode. Train passed: 4/4",
+      "duration_seconds": 7.1638,
+      "usage": {
+        "input_tokens": 432,
+        "reasoning_tokens": 0,
+        "output_tokens": 136,
+        "total_tokens": 1681
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\25ff71a9"
+    },
+    {
+      "task_name": "007bbfb7",
+      "task_file": "tarefas\\training\\007bbfb7.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        5,
+        5
+      ],
+      "rule_summary": "Code generation mode. Train passed: 5/5",
+      "duration_seconds": 9.2888,
+      "usage": {
+        "input_tokens": 1581,
+        "reasoning_tokens": 0,
+        "output_tokens": 153,
+        "total_tokens": 4705
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\007bbfb7"
+    },
+    {
+      "task_name": "0a938d79",
+      "task_file": "tarefas\\training\\0a938d79.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Code generation mode. Train passed: 4/4",
+      "duration_seconds": 20.6814,
+      "usage": {
+        "input_tokens": 5022,
+        "reasoning_tokens": 0,
+        "output_tokens": 459,
+        "total_tokens": 12358
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\0a938d79"
+    },
+    {
+      "task_name": "3aa6fb7a",
+      "task_file": "tarefas\\training\\3aa6fb7a.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        2,
+        2
+      ],
+      "rule_summary": "Code generation mode. Train passed: 2/2",
+      "duration_seconds": 5.86,
+      "usage": {
+        "input_tokens": 774,
+        "reasoning_tokens": 0,
+        "output_tokens": 260,
+        "total_tokens": 2245
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\3aa6fb7a"
+    },
+    {
+      "task_name": "50aad11f",
+      "task_file": "tarefas\\evaluation\\50aad11f.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 3/3",
+      "duration_seconds": 17.7157,
+      "usage": {
+        "input_tokens": 2013,
+        "reasoning_tokens": 0,
+        "output_tokens": 926,
+        "total_tokens": 8428
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\50aad11f"
+    },
+    {
+      "task_name": "e9b4f6fc",
+      "task_file": "tarefas\\evaluation\\e9b4f6fc.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Code generation mode. Train passed: 4/4",
+      "duration_seconds": 18.7817,
+      "usage": {
+        "input_tokens": 2631,
+        "reasoning_tokens": 0,
+        "output_tokens": 669,
+        "total_tokens": 9481
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\e9b4f6fc"
+    },
+    {
+      "task_name": "9a4bb226",
+      "task_file": "tarefas\\evaluation\\9a4bb226.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/3",
+      "duration_seconds": 8.9251,
+      "usage": {
+        "input_tokens": 2307,
+        "reasoning_tokens": 0,
+        "output_tokens": 151,
+        "total_tokens": 4752
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\9a4bb226"
+    },
+    {
+      "task_name": "c658a4bd",
+      "task_file": "tarefas\\evaluation\\c658a4bd.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        2
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/2",
+      "duration_seconds": 24.1236,
+      "usage": {
+        "input_tokens": 1896,
+        "reasoning_tokens": 0,
+        "output_tokens": 376,
+        "total_tokens": 10374
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\c658a4bd"
+    },
+    {
+      "task_name": "aab50785",
+      "task_file": "tarefas\\evaluation\\aab50785.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        5,
+        5
+      ],
+      "rule_summary": "Code generation mode. Train passed: 5/5",
+      "duration_seconds": 17.0049,
+      "usage": {
+        "input_tokens": 3276,
+        "reasoning_tokens": 0,
+        "output_tokens": 478,
+        "total_tokens": 10522
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\aab50785"
+    },
+    {
+      "task_name": "d47aa2ff",
+      "task_file": "tarefas\\evaluation\\d47aa2ff.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 3/3",
+      "duration_seconds": 12.7382,
+      "usage": {
+        "input_tokens": 2991,
+        "reasoning_tokens": 0,
+        "output_tokens": 221,
+        "total_tokens": 7514
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\d47aa2ff"
+    },
+    {
+      "task_name": "f5aa3634",
+      "task_file": "tarefas\\evaluation\\f5aa3634.json",
+      "is_correct": false,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 3/3",
+      "duration_seconds": 24.5464,
+      "usage": {
+        "input_tokens": 1950,
+        "reasoning_tokens": 0,
+        "output_tokens": 638,
+        "total_tokens": 11603
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\f5aa3634"
+    },
+    {
+      "task_name": "7d18a6fb",
+      "task_file": "tarefas\\evaluation\\7d18a6fb.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/3",
+      "duration_seconds": 11.5796,
+      "usage": {
+        "input_tokens": 3090,
+        "reasoning_tokens": 0,
+        "output_tokens": 752,
+        "total_tokens": 7485
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\7d18a6fb"
+    },
+    {
+      "task_name": "93b4f4b3",
+      "task_file": "tarefas\\evaluation\\93b4f4b3.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        2
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/2",
+      "duration_seconds": 35.3485,
+      "usage": {
+        "input_tokens": 1428,
+        "reasoning_tokens": 0,
+        "output_tokens": 1436,
+        "total_tokens": 14534
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\93b4f4b3"
+    },
+    {
+      "task_name": "7c9b52a0",
+      "task_file": "tarefas\\evaluation\\7c9b52a0.json",
+      "is_correct": false,
+      "train_passed": false,
+      "train_score": [
+        0,
+        3
+      ],
+      "rule_summary": "Code generation mode. Train passed: 0/3",
+      "duration_seconds": 22.5573,
+      "usage": {
+        "input_tokens": 2649,
+        "reasoning_tokens": 0,
+        "output_tokens": 547,
+        "total_tokens": 9811
+      },
+      "artifacts_dir": "runs\\geracao_codigo\\7c9b52a0"
+    }
+  ]
+}

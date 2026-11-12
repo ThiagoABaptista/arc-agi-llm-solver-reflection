@@ -1,0 +1,420 @@
+{
+  "experiment_label": "reflexao",
+  "mode": "reflection",
+  "timestamp": "2026-10-24T18:08:31.800022",
+  "provider": "google",
+  "reasoning_level": "high",
+  "samples": 3,
+  "tasks_file": "tarefas\\tarefas.txt",
+  "total_tasks": 20,
+  "solved_tasks": 19,
+  "train_100_tasks": 20,
+  "accuracy_percentage": 95.0,
+  "total_attempts": 28,
+  "total_input_tokens": 77681,
+  "total_reasoning_tokens": 0,
+  "total_output_tokens": 16085,
+  "total_duration_seconds": 410.79,
+  "results": [
+    {
+      "task_name": "44d8ac46",
+      "task_file": "tarefas\\training\\44d8ac46.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 4/4",
+      "total_attempts": 2,
+      "duration_seconds": 41.0187,
+      "usage": {
+        "input_tokens": 8897,
+        "reasoning_tokens": 0,
+        "output_tokens": 1651,
+        "total_tokens": 25048
+      },
+      "artifacts_dir": "runs\\reflexao\\44d8ac46"
+    },
+    {
+      "task_name": "44f52bb0",
+      "task_file": "tarefas\\training\\44f52bb0.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        6,
+        6
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 6/6",
+      "total_attempts": 1,
+      "duration_seconds": 5.7496,
+      "usage": {
+        "input_tokens": 426,
+        "reasoning_tokens": 0,
+        "output_tokens": 104,
+        "total_tokens": 2459
+      },
+      "artifacts_dir": "runs\\reflexao\\44f52bb0"
+    },
+    {
+      "task_name": "9565186b",
+      "task_file": "tarefas\\training\\9565186b.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 4/4",
+      "total_attempts": 2,
+      "duration_seconds": 11.0899,
+      "usage": {
+        "input_tokens": 982,
+        "reasoning_tokens": 0,
+        "output_tokens": 398,
+        "total_tokens": 4241
+      },
+      "artifacts_dir": "runs\\reflexao\\9565186b"
+    },
+    {
+      "task_name": "1cf80156",
+      "task_file": "tarefas\\training\\1cf80156.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 3.4405,
+      "usage": {
+        "input_tokens": 1527,
+        "reasoning_tokens": 0,
+        "output_tokens": 193,
+        "total_tokens": 2443
+      },
+      "artifacts_dir": "runs\\reflexao\\1cf80156"
+    },
+    {
+      "task_name": "32597951",
+      "task_file": "tarefas\\training\\32597951.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 11.2917,
+      "usage": {
+        "input_tokens": 5403,
+        "reasoning_tokens": 0,
+        "output_tokens": 317,
+        "total_tokens": 9828
+      },
+      "artifacts_dir": "runs\\reflexao\\32597951"
+    },
+    {
+      "task_name": "2013d3e2",
+      "task_file": "tarefas\\training\\2013d3e2.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        2,
+        2
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 2/2",
+      "total_attempts": 1,
+      "duration_seconds": 16.4815,
+      "usage": {
+        "input_tokens": 840,
+        "reasoning_tokens": 0,
+        "output_tokens": 268,
+        "total_tokens": 7801
+      },
+      "artifacts_dir": "runs\\reflexao\\2013d3e2"
+    },
+    {
+      "task_name": "25ff71a9",
+      "task_file": "tarefas\\training\\25ff71a9.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 4/4",
+      "total_attempts": 1,
+      "duration_seconds": 6.1395,
+      "usage": {
+        "input_tokens": 432,
+        "reasoning_tokens": 0,
+        "output_tokens": 118,
+        "total_tokens": 1499
+      },
+      "artifacts_dir": "runs\\reflexao\\25ff71a9"
+    },
+    {
+      "task_name": "007bbfb7",
+      "task_file": "tarefas\\training\\007bbfb7.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        5,
+        5
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 5/5",
+      "total_attempts": 1,
+      "duration_seconds": 5.8815,
+      "usage": {
+        "input_tokens": 1581,
+        "reasoning_tokens": 0,
+        "output_tokens": 129,
+        "total_tokens": 3707
+      },
+      "artifacts_dir": "runs\\reflexao\\007bbfb7"
+    },
+    {
+      "task_name": "0a938d79",
+      "task_file": "tarefas\\training\\0a938d79.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 4/4",
+      "total_attempts": 3,
+      "duration_seconds": 41.983,
+      "usage": {
+        "input_tokens": 18705,
+        "reasoning_tokens": 0,
+        "output_tokens": 2009,
+        "total_tokens": 34549
+      },
+      "artifacts_dir": "runs\\reflexao\\0a938d79"
+    },
+    {
+      "task_name": "3aa6fb7a",
+      "task_file": "tarefas\\training\\3aa6fb7a.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        2,
+        2
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 2/2",
+      "total_attempts": 1,
+      "duration_seconds": 6.1782,
+      "usage": {
+        "input_tokens": 774,
+        "reasoning_tokens": 0,
+        "output_tokens": 491,
+        "total_tokens": 2427
+      },
+      "artifacts_dir": "runs\\reflexao\\3aa6fb7a"
+    },
+    {
+      "task_name": "50aad11f",
+      "task_file": "tarefas\\evaluation\\50aad11f.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 22.7588,
+      "usage": {
+        "input_tokens": 2013,
+        "reasoning_tokens": 0,
+        "output_tokens": 942,
+        "total_tokens": 8176
+      },
+      "artifacts_dir": "runs\\reflexao\\50aad11f"
+    },
+    {
+      "task_name": "e9b4f6fc",
+      "task_file": "tarefas\\evaluation\\e9b4f6fc.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        4,
+        4
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 4/4",
+      "total_attempts": 4,
+      "duration_seconds": 70.1327,
+      "usage": {
+        "input_tokens": 11992,
+        "reasoning_tokens": 0,
+        "output_tokens": 3354,
+        "total_tokens": 31841
+      },
+      "artifacts_dir": "runs\\reflexao\\e9b4f6fc"
+    },
+    {
+      "task_name": "9a4bb226",
+      "task_file": "tarefas\\evaluation\\9a4bb226.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 13.6648,
+      "usage": {
+        "input_tokens": 2307,
+        "reasoning_tokens": 0,
+        "output_tokens": 164,
+        "total_tokens": 5963
+      },
+      "artifacts_dir": "runs\\reflexao\\9a4bb226"
+    },
+    {
+      "task_name": "c658a4bd",
+      "task_file": "tarefas\\evaluation\\c658a4bd.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        2,
+        2
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 2/2",
+      "total_attempts": 1,
+      "duration_seconds": 22.0898,
+      "usage": {
+        "input_tokens": 1896,
+        "reasoning_tokens": 0,
+        "output_tokens": 704,
+        "total_tokens": 9335
+      },
+      "artifacts_dir": "runs\\reflexao\\c658a4bd"
+    },
+    {
+      "task_name": "aab50785",
+      "task_file": "tarefas\\evaluation\\aab50785.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        5,
+        5
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 5/5",
+      "total_attempts": 1,
+      "duration_seconds": 18.0973,
+      "usage": {
+        "input_tokens": 3276,
+        "reasoning_tokens": 0,
+        "output_tokens": 371,
+        "total_tokens": 11094
+      },
+      "artifacts_dir": "runs\\reflexao\\aab50785"
+    },
+    {
+      "task_name": "d47aa2ff",
+      "task_file": "tarefas\\evaluation\\d47aa2ff.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 2,
+      "duration_seconds": 44.7733,
+      "usage": {
+        "input_tokens": 7513,
+        "reasoning_tokens": 0,
+        "output_tokens": 1704,
+        "total_tokens": 25102
+      },
+      "artifacts_dir": "runs\\reflexao\\d47aa2ff"
+    },
+    {
+      "task_name": "f5aa3634",
+      "task_file": "tarefas\\evaluation\\f5aa3634.json",
+      "is_correct": false,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 21.723,
+      "usage": {
+        "input_tokens": 1950,
+        "reasoning_tokens": 0,
+        "output_tokens": 571,
+        "total_tokens": 10561
+      },
+      "artifacts_dir": "runs\\reflexao\\f5aa3634"
+    },
+    {
+      "task_name": "7d18a6fb",
+      "task_file": "tarefas\\evaluation\\7d18a6fb.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 14.6585,
+      "usage": {
+        "input_tokens": 3090,
+        "reasoning_tokens": 0,
+        "output_tokens": 816,
+        "total_tokens": 8818
+      },
+      "artifacts_dir": "runs\\reflexao\\7d18a6fb"
+    },
+    {
+      "task_name": "93b4f4b3",
+      "task_file": "tarefas\\evaluation\\93b4f4b3.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        2,
+        2
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 2/2",
+      "total_attempts": 1,
+      "duration_seconds": 22.386,
+      "usage": {
+        "input_tokens": 1428,
+        "reasoning_tokens": 0,
+        "output_tokens": 1190,
+        "total_tokens": 10334
+      },
+      "artifacts_dir": "runs\\reflexao\\93b4f4b3"
+    },
+    {
+      "task_name": "7c9b52a0",
+      "task_file": "tarefas\\evaluation\\7c9b52a0.json",
+      "is_correct": true,
+      "train_passed": true,
+      "train_score": [
+        3,
+        3
+      ],
+      "rule_summary": "Reflection mode (samples=3). Best train score: 3/3",
+      "total_attempts": 1,
+      "duration_seconds": 11.251,
+      "usage": {
+        "input_tokens": 2649,
+        "reasoning_tokens": 0,
+        "output_tokens": 591,
+        "total_tokens": 6385
+      },
+      "artifacts_dir": "runs\\reflexao\\7c9b52a0"
+    }
+  ]
+}

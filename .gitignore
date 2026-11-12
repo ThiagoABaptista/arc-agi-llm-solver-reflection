@@ -1,0 +1,27 @@
+# Ambientes Virtuais Python
+venv/
+.venv/
+
+# Arquivos de configuração do VSCode
+.vscode/
+
+# Arquivos de ambiente
+.env
+
+# Repositório/Dataset externo do ARC
+arc-agi/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+.aider*
+.pytest_cache/
+.DS_Store
+
+# IA002 - Execuções e logs do Solver (runs)
+runs/
+**/runs/
+IA002/runs/
+tarefas
+**/tarefas/
+ia002/tarefas/
